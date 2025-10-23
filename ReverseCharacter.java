@@ -1,0 +1,10 @@
+public class ReverseCharacter {
+    public static void main(String[] args) {
+        String a = "Character";
+                for (int i = a.length()-1; i >= 0; i--) {
+                    char b  = a.charAt(i);
+                    System.out.print(b);
+                }
+
+    }
+}
